@@ -2,6 +2,7 @@ import streamlit as st
 import tensorflow as tf
 import pandas as pd
 import altair as alt
+import h5py
 from utils import load_and_prep, get_classes
 
 @st.cache(suppress_st_warning=True)
