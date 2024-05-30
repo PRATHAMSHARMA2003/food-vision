@@ -54,7 +54,7 @@ file = st.file_uploader(label="Upload an image of food.",
                         type=["jpg", "jpeg", "png"])
 
 
-model = tf.keras.models.load_model("food-vision/models/EfficientNetB1.hdf5")
+model = tf.keras.models.load_model("/food-vision/models/EfficientNetB1.hdf5")
 
 
 st.sidebar.markdown("Created by **Gaurav Reddy**")
